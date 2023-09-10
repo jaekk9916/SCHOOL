@@ -1,0 +1,36 @@
+body {
+    width: 980px;
+    font-family: sans-serif;
+    margin: auto;
+}
+
+a:visited {
+    color:cornflowerblue;
+}
+
+a:hover {
+    color: red;
+    background-color: black;
+    text-decoration: underline;
+}
+
+#header {
+    height:10%;
+}
+
+#header_top {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    
+}
+
+#header_top > h1 {
+    display: inline-block;
+    margin: auto;
+}
+
+#laptopImg {
+    width: 100%;
+}
+

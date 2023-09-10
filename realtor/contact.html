@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="RealEstateHome.css">
+</head>
+
+<body>
+    <div id="wrapper">
+        <header>
+            <h1>Joy Properties Inc</h1>
+            <a href="../index.html"><img id="homepage" src="../images/homepage.png"></a>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="realEstateHome.html">Home</a></li>
+                <li id="page"><a href="activeListings.html">Active Listings</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="siteMap.html">Sitemap</a></li>
+            </ul>
+        </nav>
+        <main class="contact">
+            <h2><span lang="en-ca">Contact Form</span></h2>
+            <p>
+            <form action="mailto:arai234@anupRaiRE.ca" method="get">
+                <fieldset style="margin-bottom: 10px;">
+                    <legend id="personal">Personal Info </legend>
+                    <p>
+                        <input type="text" class="info" placeholder="First Name*" size="25" name="fname" required><br>
+                    </p>
+                    <p>
+                        <input type="text" class="info" name="lname" size="25" placeholder="Last Name*" required><br>
+                    </p>
+                    <p>
+                        <input type="tel" class="info" id="phone" name="phone" placeholder="Phone number*: 123-45-678"
+                            pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required>
+                    </p>
+                    <p>
+                        <input type="text" class="info" placeholder="someone@someplace.ca*" size="30" required><br>
+                    </p>
+                </fieldset>
+                <fieldset>
+                    <legend>Room Info</legend>
+                    <p><label class="title">Type </label>
+                        <input type="checkbox" id="house" name="type">
+                        <label for="house">House</label>
+                        <input type="checkbox" id="condominium" name="type">
+                        <label for="condominium">Condominium</label>
+                    </p>
+                    <p><label class="title">Number of bedroom </label>
+                        <input type="checkbox" id="bed1" name="bed_type">
+                        <label for="bed1">1 Bed</label>
+                        <input type="checkbox" id="bed2" name="bed_type">
+                        <label for="bed2">2 Bed</label>
+                        <input type="checkbox" id="bed3" name="bed_type">
+                        <label for="bed3">3 Bed</label>
+                        <input type="checkbox" id="bed_etc" name="bed_type">
+                        <label for="bed_etc">Etc</label>
+                    </p>
+                    <p><label class="title">Number of bathroom </label>
+                        <input type="checkbox" id="bath1" name="type">
+                        <label for="bath1">1 Bath</label>
+                        <input type="checkbox" id="bath2" name="type">
+                        <label for="bath2">2 Bath</label>
+                        <input type="checkbox" id="bath_etc" name="type">
+                        <label for="bath_etc">More</label>
+                    </p>
+                    <p>
+                        <label class="title">Price Range: $1000 - $3000 (Gap: $500)</label>
+                        <input type="range" min="1000" max="3000" id="price_range" step="500" value="1000">
+                        <output name="price" for="price_range"></output><br>
+                    </p>
+                    <p>
+                        <label class="title">Months wished to move in</label>
+                        <input type="month" class="info" name="month" id="month" min="2022-12" value="2022-12"><br>
+                        <label class="title">Special Requirements</label>
+                        <textarea id="comments" class="info" style="padding: 10px;" name="comments" rows=7 cols=30></textarea>
+                    </p>
+                    <p><label class="title">Companion animal</label>
+                        <input type="radio" id="animal" name="type">
+                        <label for="animal">Yes</label>
+                        <input type="radio" id="animal_not" name="type">
+                        <label for="animal_not">No</label>
+                    </p>
+                </fieldset>
+                <p>
+                    <input type="submit" value="Complete Registration">
+                    <input type="reset" value="Clear Form">
+                </p>
+            </form>
+        </main>
+        <aside>
+            <p><img src="images/picture.jpg" alt="picture"></p>Phone: (416) 123-4567<br>
+            Email: <a href="mailto:jjang35@my.centennialcollege.ca">jjang35@my.centennialcollege.ca</a>
+        </aside>
+        <footer>
+            Copyright © 2020
+        </footer>
+    </div>
+</body>
+
+</html>

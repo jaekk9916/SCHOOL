@@ -1,0 +1,32 @@
+body {
+    color: #5C6F73;
+}
+main h2 {
+    font-weight: 900;
+    color: #5C6F73;
+}
+
+ul, a {
+    font-weight: 800;
+    color: #A8CABA;
+    list-style: none;
+    text-decoration: none;
+}
+
+li {
+    padding: 10px;
+}
+
+nav {
+    color: coral;
+}
+
+h1 {
+    font-weight: 800;
+}
+
+/*a{*/
+/*    list-style: none;*/
+/*    color: #A8CABA;*/
+/*    font-weight: 800;*/
+/*}*/

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="coursesurvey.css">
+</head>
+<body>
+    <form method="get" action="https://www.google.com/">
+        <div class="content">
+            <div class="detail_content">
+                <header style=" background-color: #f0e68c;">
+                <a id="logo" href="https://www.centennialcollege.ca/"></a><h2 style="color: coral; font-weight: 800;">CENTENNIAL COLLEGE<br>
+                Countinuing Education Course/instructor Evaluation</h2></a>
+                    <a href="../index.html"><img id="homepage" src="../images/homepage.png"></a>
+                </header>
+                <p>Please read each statement carefully and consider each one individually. Use the <b>computer card</b> to make your choice (use a pencil to fill in the space). Give only <b>one answer</b> for each question</p>
+                
+                <label class="bold">Course Name/Code: </label><input type="text" size="75" name="courseName"></p>
+                <label class="bold">Semester: </label>
+                <input type="radio" id="fall" name="semester" value="fall"><label for="fall">Fall</label>
+                <input type="radio" id="winter" name="semester" value="winter"><label for="winter">winter</label>
+                <input type="radio" id="spr_sum" name="semester" value="sprsum"><label for="spr_sum">Spring/Summer</label>
+                &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<label class="bold">Year: </label><input type="date" name="year" size="28" min="2018" max="2025">
+                <br><br><b>Instructor: </b>
+                <select>
+                    <option value="harsimran">Harsimran Kaur</option>
+                    <option value="jaekyeong">Jaekyeong Jang</option>
+                    <option value="nicoleta">Nicoleta</option>
+                    <option value="adam">Adam Saleh</option>
+                </select>
+                <h3 class="section">INSTRUCTOR</h3>
+                how would you rate the instructor's:<br>1. <b>knowledge</b> of subject?<br>
+                <div class="choice1"><input type="radio" id="knowledge1" name="knowledge" value="excellent"><label for="knowledge1">(a) Excellent</label></div>
+                <div class="choice2"><input type="radio" id="knowledge2" name="knowledge" value="good"><label for="knowledge2">(b) Good</label></div>
+                <div class="choice3"><input type="radio" id="knowledge3" name="knowledge" value="fair"><label for="knowledge3">(c) Fair</label></div>
+                <div class="choice4"><input type="radio" id="knowledge4" name="knowledge" value="not"><label for="knowledge4">(d) Not Satisfactory</label></div><br>
+                
+                <br>2. <b>helpfulness?</b> <br>
+                <div class="choice1"><input type="radio" id="helpfulness1" name="helpfulness" value="excellent"><label for="helpfulness1">(a) Excellent</label></div>
+                <div class="choice2"><input type="radio" id="helpfulness2" name="helpfulness" value="good"><label for="helpfulness2">(b) Good</label></div>
+                <div class="choice3"><input type="radio" id="helpfulness3" name="helpfulness" value="fair"><label for="helpfulness3">(c) Fair</label></div>
+                <div class="choice4"><input type="radio" id="helpfulness4" name="helpfulness" value="not"><label for="helpfulness4">(d) Not Satisfactory</label></div>
+                
+                <br><br>3. <b>courtesy and respect</b> for all students? <br>
+                <div class="choice1"><input type="radio" id="courtesy1" name="courtesy" value="excellent"><label for="courtesy1">(a) Excellent</label></div>
+                <div class="choice2"><input type="radio" id="courtesy2" name="courtesy" value="good"><label for="courtesy2">(b) Good</label></div>
+                <div class="choice3"><input type="radio" id="courtesy3" name="courtesy" value="fair"><label for="courtesy3">(c) Fair</label></div>
+                <div class="choice4"><input type="radio" id="courtesy4" name="courtesy" value="not"><label for="courtesy4">(d) Not Satisfactory</label></div>
+                
+                <br><br>4. <b>communication</b> skills? <br>
+                <div class="choice1"><input type="radio" id="communication1" name="communication" value="excellent"><label for="communication1">(a) Excellent</label></div>
+                <div class="choice2"><input type="radio" id="communication2" name="communication" value="good"><label for="communication2">(b) Good</label></div>
+                <div class="choice3"><input type="radio" id="communication3" name="communication" value="fair"><label for="communication3">(c) Fair</label></div>
+                <div class="choice4"><input type="radio" id="communication4" name="communication" value="not"><label for="communication4">(d) Not Satisfactory</label></div>
+                
+                <br><br><div>5. overall <b>performance? </b></div>
+                <div class="choice1"><input type="radio" id="performance1" name="performance" value="excellent"><label for="performance1">(a) Excellent</label></div>
+                <div class="choice2"><input type="radio" id="performance2" name="performance" value="good"><label for="performance2">(b) Good</label></div>
+                <div class="choice3"><input type="radio" id="performance3" name="performance" value="fair"><label for="performance3">(c) Fair</label></div>
+                <div class="choice4"><input type="radio" id="performance4" name="performance" value="not"><label for="performance4">(d) Not Satisfactory</label></div>
+
+                <br><h3 class="section">COURSE</h3>
+                <div>6. How would you rate the <b>course materials</b> skills? </div>
+                <div class="choice1"><input type="radio" id="materials1" name="materials" value="excellent"><label for="materials1">(a) Excellent</label></div>
+                <div class="choice2"><input type="radio" id="materials2" name="materials" value="good"><label for="materials2">(b) Good</label></div>
+                <div class="choice3"><input type="radio" id="materials3" name="materials" value="fair"><label for="materials3">(c) Fair</label></div>
+                <div class="choice4"><input type="radio" id="materials4" name="materials" value="not"><label for="materials4">(d) Not Satisfactory</label></div>
+                <br><br><div>7. How much did this course meet your <b>expectations? </b></div>
+                <div class="choice1"><input type="radio" id="expectations1" name="expectations" value="excellent"><label for="expectations1">(a) Excellent</label></div>
+                <div class="choice2"><input type="radio" id="expectations2" name="expectations" value="good"><label for="expectations2">(b) Good</label></div>
+                <div class="choice3"><input type="radio" id="expectations3" name="expectations" value="fair"><label for="expectations3">(c) Fair</label></div>
+                <div class="choice4"><input type="radio" id="expectations4" name="expectations" value="not"><label for="expectations4">(d) Not Satisfactory</label></div>
+                <br><br><div>8. How would you rate this course (<b>overall</b>)?<br></div>
+                <div class="choice1"><input type="radio" id="overall1" name="overall" value="excellent"><label for="overall1">(a) Excellent</label></div>
+                <div class="choice2"><input type="radio" id="overall2" name="overall" value="good"><label for="overall2">(b) Good</label></div>
+                <div class="choice3"><input type="radio" id="overall3" name="overall" value="fair"><label for="overall3">(c) Fair</label></div>
+                <div class="choice4"><input type="radio" id="overall4" name="overall" value="not"><label for="overall4">(d) Not Satisfactory</label></div>
+                
+                <br><br><h3 class="section">General Information</h3>
+                <div>9. Was the <b>course outline</b> reviewed/explained at the beginning of your course? <br></div>
+                <div class="choice1"><input type="radio" id="outline1" name="outline" value="yes"><label for="outline1">(a) Yes</label></div>
+                <div class="choice2"><input type="radio" id="outline2" name="outline" value="no"><label for="outline2">(b) No</label></div>
+                <div class="choice3"><input type="radio" id="outline3" name="outline" value="not"><label for="outline3">(c) Not Sure</label></div><br>
+                <br><div>10. Would you <b>recommend</b> this course to a friend with the same interests?</div>
+                <div class="choice1"><input type="radio" id="recommend1" name="recommend" value="yes"><label for="recommend1">(a) Yes</label></div>
+                <div class="choice2"><input type="radio" id="recommend2" name="recommend" value="no"><label for="recommend2">(b) No</label></div>
+                <div class="choice3"><input type="radio" id="recommend3" name="recommend" value="not"><label for="recommend3">(c) Not Sure</label></div>
+
+                <br><br><h3 class="section">Any Other Comments <div class="nomal">(please use the back of the computer card or this paper if necessary</div></h3>
+                <br><div>11. What is the best thing about this course? <textarea id="best" cols="52" rows="2" name="best_thing"></textarea></div>
+                <br><div>12. How could we <b>improve</b> this course? <textarea id="improve" cols="56" rows="2" name="improve"></textarea></div>
+                <br><div>13. Other: <textarea id="other" cols="85" rows="3" name="other"></textarea></div>
+                <div id="footer">
+                    Thank you! We pay attention to your feedback!<br>
+                    Web: www.centennialcollege.ca/continuing_education <a href="mailto:continuingeducation@centennialcollege.ca">Email:continuingeducation@centennialcollege.ca</a>
+                </footer><br><br>
+                <input type="submit" value="submit">
+                <input type="reset" value="reset">
+            </div>
+        </div>
+    </form>
+</body>
+</html>
