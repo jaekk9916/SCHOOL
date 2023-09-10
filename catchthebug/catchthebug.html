@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Game</title>
+  <link rel="stylesheet" href="catchthebug.css">
+  <script src="catchthebug.js" defer></script>
+</head>
+<body>
+<header>
+  <h1>Catch the bug!</h1>
+  <label>Score</label>
+  <label id="score">0</label>
+  <label id="currentSpeed">Current Speed: 0</label>
+
+</header>
+<button type="button" id="rScore">Reset Score</button>
+<button type="button" id="rSpeed">Reset Speed</button>
+<button type="button" id="stop">Game pause</button>
+<!--<i><h7><u>limit speed: 0.50 second</u></h7></i>-->
+<p><em>Limit speed: 0.50 second</em></p>
+<div>
+<img id="bug" src="images/bug.png">
+<canvas id="canvas"></canvas>
+</div>
+<footer>
+  <h5 style="color:gray;"><i>© Copyright Jaekyeong Jang - COMP125 - WINTER 2023</i></h5>
+</footer>
+
+</body>
+</html>
